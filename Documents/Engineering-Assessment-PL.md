@@ -100,7 +100,7 @@
 Quick Wins (1–2 tyg.):
 - Dodanie konwencji nazw i meta.json.
 - Minimalny indeks animacji w README.
- - Prosty proces CI (lint/format).
+- Prosty proces CI (lint/format).
 
 # 8. Rejestr ryzyk i mitigacje
 | Ryzyko | Prawdopodobieństwo | Wpływ | Mitigacja | Trigger |
