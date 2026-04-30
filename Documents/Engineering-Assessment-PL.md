@@ -29,7 +29,7 @@
 
 # 3. Ocena dojrzałości (0–5)
 | Obszar | Ocena | Uzasadnienie | Priorytet |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | Architektura | 1 | Struktura oparta o foldery animacji, brak zdefiniowanych kontraktów i modułów. | Wysoki |
 | Jakość kodu | 1 | Brak narzędzi lint/format i standardów w repo. | Wysoki |
 | Testy | 0 | Brak infrastruktury testowej. | Wysoki |
@@ -42,7 +42,7 @@
 
 # 4. Rekomendowany stack i narzędzia
 | Obszar | Obecnie | Rekomendacja | Dlaczego | Koszt zmiany | Ryzyko |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | runtime/framework | HTML/CSS/JS w plikach statycznych | Pozostać przy statycznym HTML/CSS/JS; opcjonalnie Vite do budowy galerii | Minimalny narzut, łatwość użycia; Vite ułatwia budowę podglądu | Niski | Niskie |
 | testy (unit/integration/e2e) | Brak | Testy statyczne: walidacja HTML/CSS, proste testy DOM (Playwright) dla galerii | Zapewnia spójność i wykrywa błędy w przykładach | Średni | Średnie |
 | lint/format | Brak | Prettier + stylelint + eslint (jeśli dodany JS) | Spójny kod i mniejsze ryzyko regresji | Niski | Niskie |
@@ -92,7 +92,7 @@
 
 # 7. Plan wdrożenia (30-60-90)
 | Faza | Zadania | Owner (rola) | Zależności | Ryzyko | Kryterium ukończenia |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0-30 | Ujednolicenie struktury folderów + meta.json; aktualizacja README | Tech Lead | Brak | Średnie | Spójny layout i indeks animacji |
 | 31-60 | Dodanie tooling: lint/format + CI | DevOps | 0-30 | Średnie | CI przechodzi na main |
 | 61-90 | Galeria/preview + release process | Frontend Lead | 31-60 | Średnie | Galeria publikowana i wersjonowanie działa |
@@ -104,7 +104,7 @@ Quick Wins (1–2 tyg.):
 
 # 8. Rejestr ryzyk i mitigacje
 | Ryzyko | Prawdopodobieństwo | Wpływ | Mitigacja | Trigger |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | Brak spójności animacji przy rozroście | Wysokie | Średni | Wymuszenie meta.json i standardów | Nowe animacje bez metadanych |
 | Niespójne stacki w dokumentacji | Średnie | Średni | Ujednolicenie dokumentacji + review | Wykrycie nowych sprzeczności |
 | Brak jakości (lint/test) | Wysokie | Wysoki | CI z lint/format i walidacją | PR bez przejścia CI |
