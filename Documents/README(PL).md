@@ -123,4 +123,5 @@ Architektura repozytorium jest oparta na strukturze opakowanej, gdzie:
 
 ---
 
-[English](/README.md)
+- [English](/README.md)
+- [Ocena inżynierska repozytorium](/Documents/Engineering-Assessment-PL.md)
