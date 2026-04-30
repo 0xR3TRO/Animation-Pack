@@ -123,4 +123,5 @@ The repository's architecture is based on a wrapped structure, where:
 
 ---
 
-[Polish](<Documents/README(PL).md>)
+- [Polish](<Documents/README(PL).md>)
+- [Engineering Assessment (PL)](<Documents/Engineering-Assessment-PL.md>)
