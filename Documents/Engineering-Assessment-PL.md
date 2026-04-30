@@ -100,7 +100,7 @@
 Quick Wins (1–2 tyg.):
 - Dodanie konwencji nazw i meta.json.
 - Minimalny indeks animacji w README.
-- Prosty workflow CI (lint/format).
+ - Prosty proces CI (lint/format).
 
 # 8. Rejestr ryzyk i mitigacje
 | Ryzyko | Prawdopodobieństwo | Wpływ | Mitigacja | Trigger |
@@ -123,6 +123,6 @@ Quick Wins (1–2 tyg.):
 - Bazowe KPI + targety po wdrożeniu:
   - DORA (Deployment Frequency, Lead Time, MTTR, Change Failure Rate): brak danych → target: min. 1 release/mies., lead time < 3 dni, MTTR < 1 dzień, CFR < 10%.
   - Jakość: 100% animacji z meta.json i README; 0 krytycznych alertów w CI.
-  - Niezawodność: 0 regresji w galerii na release.
+  - Niezawodność: 0 regresji w galerii na wydanie.
 - Jak mierzyć postęp co sprint:
   - Raport CI (liczba błędów lint/format), pokrycie meta.json, liczba nowych animacji z pełną dokumentacją.
